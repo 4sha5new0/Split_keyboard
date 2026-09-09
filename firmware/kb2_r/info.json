@@ -1,0 +1,45 @@
+{
+  "manufacturer": "yugo",
+  "keyboard_name": "kb2_r",
+  "maintainer": "yugo",
+  "usb": {
+    "vid": "0xFEED",
+    "pid": "0x0003",
+    "device_version": "1.0.0"
+  },
+  "features": {
+    "via": true
+  },
+  "matrix_pins": {
+    "cols": ["GP3", "GP4", "GP5", "GP6", "GP7", "GP8", "GP9"],
+    "rows": ["GP0", "GP1", "GP2"]
+  },
+  "diode_direction": "ROW2COL",
+  "processor": "RP2040",
+  "bootloader": "rp2040",
+  "layouts": {
+    "LAYOUT": {
+      "layout": [
+        { "matrix": [0, 0], "x": 0, "y": 0, "label": "Shift" },
+        { "matrix": [0, 1], "x": 1, "y": 0, "label": "N" },
+        { "matrix": [0, 2], "x": 2, "y": 0, "label": "Y" },
+        { "matrix": [0, 3], "x": 3, "y": 0, "label": "U" },
+        { "matrix": [0, 4], "x": 4, "y": 0, "label": "O" },
+
+        { "matrix": [1, 0], "x": 0, "y": 1, "label": "P" },
+        { "matrix": [1, 1], "x": 1, "y": 1, "label": "G" },
+        { "matrix": [1, 2], "x": 2, "y": 1, "label": "H" },
+        { "matrix": [1, 3], "x": 3, "y": 1, "label": "A" },
+        { "matrix": [1, 4], "x": 4, "y": 1, "label": "M" },
+
+        { "matrix": [2, 0], "x": 0, "y": 2, "label": "Z" },
+        { "matrix": [2, 1], "x": 1, "y": 2, "label": "V" },
+        { "matrix": [2, 2], "x": 2, "y": 2, "label": "C" },
+        { "matrix": [2, 3], "x": 3, "y": 2, "label": "L" },
+        { "matrix": [2, 4], "x": 4, "y": 2, "label": "L-No" },
+        { "matrix": [2, 5], "x": 5, "y": 2, "label": "L-Sy" },
+        { "matrix": [2, 6], "x": 6, "y": 2, "label": "L-Op" }
+      ]
+    }
+  }
+}
